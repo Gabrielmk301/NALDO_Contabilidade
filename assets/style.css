@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor0: #05AFF2;
+    --cor1: #05C7F2;
+    --cor2: #0388A6;
+    --cor3: #023440;
+    --cor4: #99DFF7;
+    --cor5: #fff;
+    --cor6: #000000;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Dancing Script', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--cor5);
+    min-height: 200vh;
+}
+
+header {
+    background-color: #ffffffc2;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header.sticky {
+    padding: 5px 100px;
+    background-color: var(--cor5);
+}
+
+.logo {
+    width: 9vw;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.4s;
+
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.4s;
+}
+
+a.home {
+    color: var(--cor0);
+}
+
+.banner {
+    position: relative;
+    width: 98vw;
+    height: 150vh;
+    background-image: url("img/1.png");
+    background-size: cover;
+    background-position: center center;
+
+}
+
+header.sticky ul li a,
+header.sticky .logo {
+    color: var(--cor6);
+}
+
+header.sticky .home {
+    color: var(--cor0);
+}
+
+header a:hover {
+    background-color: rgba(0, 76, 255, 0.227);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container-sobre {
+    width: 98vw;
+    height: 71vh;
+    margin: 0px;
+    background-image: linear-gradient(to top, #1C5273,#1C5273, transparent);
+    position: relative;
+    top: -100px;
+}
