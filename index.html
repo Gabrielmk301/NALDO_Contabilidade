@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,134 @@
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
     <script type="text/javascript">
-        window.addEventListener("scroll", function(){
+        window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
         })
     </script>
 </head>
+
 <body>
     <!-- Nav Bar -->
     <header>
-        <img src="assets/img/logo.png" alt="NRJ Contabilidade Consultiva" class="logo" >
+        <img src="assets/img/logo.png" alt="NRJ Contabilidade Consultiva" class="logo">
         <ul>
             <li><a class="home" href="#">Home</a></li>
             <li><a href="#">Serviços</a></li>
             <li><a href="#">Clientes</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#">Fale Conosco</a></li>
         </ul>
     </header>
     <section class="banner"></section>
     <section>
         <div class="container-sobre"></div>
     </section>
-    
-    
+    <article class="init-hidden">
+        <div class="empresa">
 
+            <h1>Quem Somos</h1>
+            <h2>Empresa</h2>
+            <p>Atuamos no mercado auxiliando as empresas, quanto a sua constituição, administração, consultorias e
+                quando necessário, no encerramento das mesmas. Possuímos uma equipe de profissionais gabaritados nas
+                áreas contábil, fiscal, trabalhista e de assessoria.<br>
+                <br>
+                Efetuamos um diagnóstico sobre as atividades e as rotinas da empresa, em busca de uma melhor performance
+                na utilização de artifícios legais para redução da carga tributária (Planejamento Tributário).
+            </p>
+
+        </div>
+
+        <section class="container-objective">
+            <div id="box-objective">
+                <img id="box-img" src="assets/img/Objetivo/missao.png" alt="">
+                <h1>Missão</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis sit, sed cum quia
+                    recusandae ea cupiditate officiis facilis in ullam? Saepe distinctio nobis atque deserunt
+                    perspiciatis voluptatum eum iusto?</p>
+            </div>
+            <div id="box-objective">
+                <img id="box-img" src="assets/img/Objetivo/visao.png">
+                <h1>Visão</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis sit, sed cum quia
+                    recusandae ea cupiditate officiis facilis in ullam? Saepe distinctio nobis atque deserunt
+                    perspiciatis voluptatum eum iusto?</p>
+            </div>
+            <div id="box-objective">
+                <img id="box-img" src="assets/img/Objetivo/valores.png" alt="">
+                <h1>Valores</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis sit, sed cum quia
+                    recusandae ea cupiditate officiis facilis in ullam? Saepe distinctio nobis atque deserunt
+                    perspiciatis voluptatum eum iusto?</p>
+            </div>
+        </section>
+
+        <section class="container-servicos">
+            <div class="box-pessoas">
+                <img src="https://c.pxhere.com/images/8a/7c/6eb7f289dbcfc957c6f55e8c92bb-1440157.jpg!d"
+                    srcset="https://c.pxhere.com/images/8a/7c/6eb7f289dbcfc957c6f55e8c92bb-1440157.jpg!d"
+                    alt="realização, acordo, braços, colisão, o negócio, anime-se, fechar-se, colaboração, Colegas, comunicação, conexão, cooperação, acordo, dispositivo digital, Diverso, punho, soquinho, cinco, amigos, amizade, grupo, Mãos, Socorro, homem, encontro, celular, rede, caderno, escritório, Parceiros, parceria, pessoas, poder, poder cinco, comece, sucesso, Apoio, suporte, equipe, consolidação de equipe, trabalho em equipe, tecnologia, União, unidade, sem fio, Fios, mulher, mesa de madeira, trabalhos, ambiente de trabalho, área de trabalho, mão, dedo, braço, perna, pulso, unha, sapato, Marca, Banco de imagens In PxHere">
+            </div>
+            <div id="box-servicos">
+                <h1>Deixe a burocracia com a gente!</h1><br>
+                <h2>Conheça nossos principais Serviços<br></h2>
+
+                <div class="box-simple">
+                    <span class="icon-simple1">
+                        <img src="assets/img/Servicos/Calculadora.png" alt="">
+                    </span>
+                    <h3 class="box-titulo">Contábil</h3>
+                    <br>
+                    <p class="simple-text">Temos uma equipe totalmente dedicada a contabilidade da sua empresa que
+                        trabalha com rapidez e
+                        agilidade.<br></p>
+                </div>
+
+
+                <div class="box-simple">
+                    <span class="icon-simple">
+                        <img src="assets/img/Servicos/Fiscal.png" alt="">
+                    </span>
+                    <h3 class="box-titulo">
+                        Fiscal
+                    </h3>
+                    <p class="simple-text">Temos uma equipe totalmente dedicada a contabilidade da sua empresa que
+                        trabalha com rapidez e
+                        agilidade.<br></p>
+                </div>
+
+
+                <div class="box-simple">
+                    <span class="icon-simple">
+                        <img src="assets/img/Servicos/Trabalhista.png" alt="">
+                    </span>
+                    <h3 class="box-titulo">
+                        trabalhista
+                    </h3>
+                    <p class="simple-text">Temos uma equipe totalmente dedicada a contabilidade da sua empresa que
+                        trabalha com rapidez e
+                        agilidade.<br></p>
+                </div>
+            </div>
+        </section>
+    </article>
+
+
+
+
+    <script>
+        const observer = new IntersectionObserver(entries => {
+            console.log(entries)
+            entries[0].target.classList.add('init-hidden-off')
+        },)
+        threshold: [0, .5, 1]
+
+        Array.from(document.querySelectorAll('.init-hidden')).forEach(element => {
+            observer.observe(document.querySelector('.init-hidden'))
+        })
+
+    </script>
 </body>
+
 </html>
