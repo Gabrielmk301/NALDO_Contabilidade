@@ -7,12 +7,7 @@
     <title>NRJ Contabilidade Consultiva</title>
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
-    <script type="text/javascript">
-        window.addEventListener("scroll", function () {
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        })
-    </script>
+
 </head>
 
 <body>
@@ -28,11 +23,13 @@
             <li><a href="#">Fale Conosco</a></li>
         </ul>
     </header>
-    <section class="banner"></section>
+    <section class="banner">
+        <h1 class="text-primary">TRANSFORMAMOS NÚMEROS EM OPORTUNIDADES!</h1>
+    </section>
     <section>
         <div class="container-sobre"></div>
     </section>
-    <article class="init-hidden">
+    <article>
         <div class="empresa">
 
             <h1>Quem Somos</h1>
@@ -119,23 +116,54 @@
                 </div>
             </div>
         </section>
+        <section class="container-perguntas">
+            <div class="opacity-box"></div>
+            <div class="box-perguntas">
+                <h4>Perguntas Frequentes</h4>
+                <br>
+                <h5>Veja as Respostas para as Principais Dúvidas</h5>
+                <br>
+                <h6>Nosso objetivo é sempre esclarecer as dúvidas de uma maneira simples e transparente.</h6>
+            </div>
+            
+                
+                
+                <div>
+                    <details>
+                        <summary>Posso Contratar sendo Microempreendedor Individual (MEI)</summary>
+                        <p>Sim. Você terá em um só local, lembretes do que você deve fazer para deixar a empresa em dia
+                            e também aproveitar para emitir Notas Fiscais Eletrônicas de Serviço de forma simples e
+                            rápida.</p>
+                    </details>
+                    <details>
+                        <summary>Terei mais trabalho ao transferir minha empresa?</summary>
+                        <p>Não. Você terá ainda mais tempo para cuidar do seu negócio. Tudo que uma contabilidade
+                            tradicional faz, nós fazemos também. Além disso, pela internet você controla tudo o que
+                            acontece na sua empresa.</p>
+                    </details>
+                    <details>
+                        <summary>Quero alterar de MEI para ME, vocês realizam esse serviço?</summary>
+                        <p>Sim, realizamos o desenquadramento do seu MEI para ME. Confira todos os detalhes do
+                            desenquadramento e como faze-lo conosco.</p>
+                    </details>
+                    <details>
+                        <summary>Tenho funcionários. Vocês fazem folha de pagamento?</summary>
+                        <p>Sim. Para empresas com até 10 funcionários contratados em regime CLT (mensalistas). O
+                            atendimento é realizado com um pequeno acréscimo por funcionário na mensalidade da empresa.
+                        </p>
+                    </details>
+
+                </div>
+            
+        </section>
     </article>
 
+    <footer class="container-footer"></footer>
 
 
 
-    <script>
-        const observer = new IntersectionObserver(entries => {
-            console.log(entries)
-            entries[0].target.classList.add('init-hidden-off')
-        },)
-        threshold: [0, .5, 1]
 
-        Array.from(document.querySelectorAll('.init-hidden')).forEach(element => {
-            observer.observe(document.querySelector('.init-hidden'))
-        })
-
-    </script>
+    <script src="assets/app/app.js"></script>
 </body>
 
 </html>
