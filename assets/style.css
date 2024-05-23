@@ -14,7 +14,7 @@
     --cor5: #fff;
     --cor6: #000000;
 
-    --fonte-Lato:  "Lato", sans-serif;
+    --fonte-Lato: "Lato", sans-serif;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Dancing Script', cursive;
@@ -106,7 +106,8 @@ a.home {
     box-shadow: 1px 1px 7px 4px #0000004f;
     background-color: #4682b41f;
     color: #FFF;
-    text-shadow: 1px 4px 0px black;    font-size: 3.1em;
+    text-shadow: 1px 4px 0px black;
+    font-size: 3.1em;
     text-align: center;
     display: block;
     width: 63vw;
@@ -140,20 +141,21 @@ div.empresa {
     display: block;
     width: 67vw;
     height: 50vh;
-    
+
 }
-div.empresa > h1 {
+
+div.empresa>h1 {
     text-align: center;
     padding-top: 73px;
     font-size: 16px;
     font-weight: lighter;
     text-transform: uppercase;
     font-weight: 400;
-    
+
 }
 
 
-div.empresa > h2 {
+div.empresa>h2 {
     text-align: center;
     font-size: 30px;
     font-family: var(--fonte-padrao);
@@ -164,7 +166,7 @@ div.empresa > h2 {
 
 }
 
-.empresa > p {
+.empresa>p {
     padding-top: 46px;
     font-size: 16px;
     text-align: center;
@@ -174,6 +176,7 @@ div.empresa > h2 {
     opacity: 0;
     transition: opacity 1s linear;
 }
+
 .init-hidden-off {
     opacity: 1;
 }
@@ -186,6 +189,7 @@ div.empresa > h2 {
     width: 98vw;
     justify-content: center;
 }
+
 #box-objective {
     cursor: pointer;
     box-shadow: 0px 0px 20px 0px #00000030;
@@ -195,37 +199,42 @@ div.empresa > h2 {
     width: 24vw;
     height: 69vh;
 }
+
 #box-img {
     display: block;
     padding: 64px 0px 19px;
     margin: auto;
 }
-.container-objective > #box-objective > h1 {
+
+.container-objective>#box-objective>h1 {
     text-transform: uppercase;
     padding: 5px;
     text-align: center;
 }
+
 .container-servicos {
     height: 102vh;
     margin-top: 92px;
     display: flex;
     width: 98vw;
     background-color: #082638;
-    align-items: center;   
+    align-items: center;
 }
 
-.box-pessoas > img {
+.box-pessoas>img {
     height: 101vh;
-    width: 45vw;}
+    width: 45vw;
+}
 
 #box-servicos {
     height: 100%;
     color: #0388A6;
     width: 100%;
     padding: 88px 10px 10px 10px;
-    margin: 10px;}
+    margin: 10px;
+}
 
-#box-servicos > h1 {
+#box-servicos>h1 {
     text-indent: 124px;
     color: #ffffffeb;
     font-weight: 500;
@@ -233,18 +242,19 @@ div.empresa > h2 {
     font-family: var(--fonte-Lato);
 }
 
-#box-servicos > h2 {
-     
-        color: var(--cor2);
-        text-indent: 64px;
-        line-height: 0px;
-        padding: 0px 38px 51px 38px;
-        text-align: center;
-        font-weight: bolder;
-        font-size: 32px;
-        font-family: var(--fonte-Lato);
+#box-servicos>h2 {
+
+    color: var(--cor2);
+    text-indent: 64px;
+    line-height: 0px;
+    padding: 0px 38px 51px 38px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: var(--fonte-Lato);
 }
-#box-servicos > h3 {
+
+#box-servicos>h3 {
     color: var(--cor2);
     text-indent: 120px;
     line-height: 0px;
@@ -254,7 +264,8 @@ div.empresa > h2 {
     font-size: 32px;
     font-family: var(--fonte-Lato);
 }
-#box-servicos > h4 {
+
+#box-servicos>h4 {
     color: var(--cor2);
     text-indent: 120px;
     line-height: 0px;
@@ -264,7 +275,8 @@ div.empresa > h2 {
     font-size: 32px;
     font-family: var(--fonte-Lato);
 }
-#box-servicos > h5 {
+
+#box-servicos>h5 {
     color: var(--cor2);
     text-indent: 120px;
     line-height: 0px;
@@ -274,7 +286,9 @@ div.empresa > h2 {
     font-size: 32px;
     font-family: var(--fonte-Lato);
 }
-.icon-simple, .icon-simple1 {
+
+.icon-simple,
+.icon-simple1 {
     font-size: 1.375rem;
     color: #0497f2;
     width: 60px;
@@ -287,25 +301,27 @@ div.empresa > h2 {
     justify-content: center;
 }
 
-    .icon-simple1 > img {
-        position: relative;
-        width: 8vw;
-        top: 9px;
-        left: 4px;
-    }
-    .icon-simple > img {
-        position: relative;
-        width: 8vw;
-        top: 2px;
-        
-    }
+.icon-simple1>img {
+    position: relative;
+    width: 8vw;
+    top: 9px;
+    left: 4px;
+}
+
+.icon-simple>img {
+    position: relative;
+    width: 8vw;
+    top: 2px;
+
+}
 
 .box-simple {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     margin-left: 120px;
-    width: 40vw;}
+    width: 40vw;
+}
 
 
 .box-titulo {
@@ -314,6 +330,7 @@ div.empresa > h2 {
     color: var(--cor2);
     text-transform: uppercase;
 }
+
 .simple-text {
     padding-left: 69px;
     color: #fff;
@@ -323,6 +340,7 @@ div.empresa > h2 {
 /* PERGUNTAS FREQUENTES*/
 
 .container-perguntas {
+    height: 127vh;
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -330,46 +348,256 @@ div.empresa > h2 {
     gap: 40px;
     width: 98vw;
     display: flex;
-    height: 100vh;
     justify-content: center;
 }
-.opacity-box{
+
+.opacity-box {
     position: absolute;
     opacity: 0.50;
-    width: 100%;
-    height: 100%;
+    width: 98vw;
+    height: 127vh;
     background-color: #000000;
 
 
 }
-summary{
+
+details {
+    border-width: 1px;
+    border-style: groove;
+    border-color: white;
+    border-radius: 3px;
+    margin: 6px;
+    padding: 29px;
+    width: 44vw;
+    background-color: #082638;
+    color: white;
+}
+
+details>p {
+    color: #fff;
+}
+
+summary {
+
     position: relative;
     color: #fff;
 }
+
 .box-perguntas {
+    padding: 96px 90px 90px 90px;
     position: relative;
-    background-color: #000000;
+}
+
+.box-perguntas>h4 {
+    font-size: 20px;
+    font-family: var(--fonte-Lato);
+    color: #FFF;
+}
+
+.box-perguntas>h5 {
+    font-size: 45px;
+    font-family: var(--fonte-Lato);
+    color: #FFF;
+}
+
+.box-perguntas>h6 {
+    text-align: justify;
+    font-size: 16px;
+    font-family: var(--fonte-Lato);
     color: #FFF;
 }
 
 
-
-
-
-
-
-
-.container-footer {
-background-color: #082638;
-width: 100%;
-height: 80vh;
+.container-summary {
+    padding: 95px 90px 90px 90px;
 }
 
 
+.container-form {
+    padding: 83px;
+    gap: 100px;
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 110px;
+}
+
+.box-forms>h1 {
+    color: #12B7F3;
+}
+
+.container-contato {
+    left: 57px;
+    position: relative;
+    border-radius: 7px;
+    padding: 10px 45px;
+    display: flex;
+    background-color: #12b7f359;
+    width: 34vw;
+    height: 59vh;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 20px 4px #00000030;
+
+}
+
+.container-contato>h1,
+label {
+    color: #000000;
+    font-family: var(--fonte-Lato);
+
+}
+
+.container-contato>img {
+    filter: drop-shadow(2px 4px 6px black);
+    height: 59.5vh;
+    top: -3px;
+    left: 359px;
+    width: 16vw;
+    position: absolute;
+}
+
+button {
+    border-style: hidden;
+    border-radius: 7px;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100px;
+}
+
+input {
+    margin: 5px 0px;
+    border-radius: 6px;
+    padding: 10px;
+    width: 27vw;
+    border-style: hidden;
+}
+
+
+.box-forms>h1 {
+    font-size: 20px;
+
+}
+
+.box-forms>h2 {
+    font-size: 32px;
+
+
+}
+
+.box-forms>p {
+    font-size: 16px;
+
+}
+
+.container-footer {
+    z-index: -1;
+    position: absolute;
+    gap: 125px;
+    display: flex;
+    width: 98vw;
+    height: 90vh;
+    background-image: url(img/Objetivo/architecture.jpg);
+    background-attachment: fixed;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.container-footer>img {
+    margin-left: 87px;
+    padding-bottom: 263px;    width: 25vw;
+
+}
+
+.container-footer>h1 {
+    width: 20vw;
+}
+
+.footer-opacity {
+    
+    z-index: -1;
+    position: absolute;
+    background-color: #000000e3;
+    width: 98vw;
+    height: 90vh;}
+    
+
+.box-contato {
+    width: 20vw;
+    padding-bottom: 157px;
+
+}
+
+.box-contato>h1 {
+    padding: 15px 0px;
+    color: #F5FAFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.box-links,
+a {
+    font-weight: 500;
+    color: var(--cor5);
+    text-decoration: none;
+    width: 15vw;
+    padding-bottom: 110px;
+    font-size: 16px;
+}
+.box-links>a:hover {
+    color: #4c4b4b;
+}
+
+.box-links>h2 {
+    padding: 15px 0px;
+    color: #F5FAFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+address {
+    color: var(--cor5);
+}
+
+.redes-sociais {
+    overflow: hidden;
+    width: 251px;
+    left: 195px;
+    padding-bottom: 170px;
+    position: absolute;
+}
+
+.redes-sociais>img {
+    cursor: pointer;
+    
+    padding: 0px 18px 0px 0px;
+    width: 58px
+}
+.redes-sociais>img:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+.copyright {
+    font-size: 14px;
+    left: 17px;
+    bottom: 10px;
+    color: white;
+    position: absolute;
+}
+
+
+
 @keyframes pisca {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
