@@ -629,8 +629,10 @@ address {
     }
 
     #nav.active #menu {
+        width: 98vw;
+        left: 0px;
         overflow-y: auto;
-        top: 76px;
+        top: 75px;
         visibility: visible;
         display: block;
         height: 46.5vh;
