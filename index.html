@@ -13,8 +13,17 @@
 <body>
     <!-- Nav Bar -->
     <header>
-        <img src="assets/img/logo.png" alt="NRJ Contabilidade Consultiva" class="logo">
-        <ul>
+        
+        <picture>
+            <source media="(max-width: 950px )" srcset="assets/img/Objetivo/logo2.png">
+            <img src="assets/img/logo.png" alt="NRJ Contabilidade Consultiva" class="logo">
+        </picture>
+        <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile"aria-haspopup="true" aria-controls='menu' aria-expanded="false">
+            <span id="hamburger"></span>
+        </button>
+
+        <ul id="menu" role="menu">
             <li><a class="home" href="#">Home</a></li>
             <li><a href="#">Serviços</a></li>
             <li><a href="#">Clientes</a></li>
@@ -22,9 +31,12 @@
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Fale Conosco</a></li>
         </ul>
+    </nav>
     </header>
-    <section class="banner">
-        <h1 class="text-primary">TRANSFORMAMOS NÚMEROS EM OPORTUNIDADES!</h1>
+    <section class="container-principal">
+        <div class="banner">
+            <h1 class="text-primary">TRANSFORMAMOS NÚMEROS EM OPORTUNIDADES!</h1>
+        </div>
     </section>
     <section>
         <div class="container-sobre"></div>
@@ -173,7 +185,7 @@
                     <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
                     <label>E-mail</label>
                     <input type="text" name="name" placeholder="Digite seu E-mail" autocomplete="off">
-                    <label>Telefone</label>
+                    <label>Tel</label>
                     <input type="text" name="name" placeholder="Digite seu Telefone/Whatsapp">
                     <button type="submit">Enviar</button>
 
@@ -223,6 +235,7 @@
 
 
     <script src="assets/app/app.js"></script>
+    <script src="assets/app/btn.js"></script>
 </body>
 
 </html>
