@@ -700,8 +700,7 @@ address {
 
     header.sticky {
         padding: 15px;
-        background-color: var(--cor5);
-    }
+        background-color: #0000008f;    }
 
     .logo {
         width: 44vw;
@@ -735,7 +734,12 @@ address {
         font-weight: 500px;
         transition: 0.4s;
     }
-
+    header.sticky ul li a, header.sticky .logo {
+        color: #fcfcfc;
+    }
+    header.sticky ul li a, header.sticky .logo {
+        color: #ffffff;
+    }
     a.home {
         color: var(--cor0);
     }
